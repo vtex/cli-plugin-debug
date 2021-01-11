@@ -47,7 +47,12 @@
     "bin": "vtex",
     "devPlugins": [
       "@oclif/plugin-help"
-    ]
+    ],
+    "topics": {
+      "debug": {
+        "description": "Debug commands. Run 'vtex debug' to see all subcommands"
+      }
+    }
   },
   "repository": "vtex/cli-plugin-debug",
   "scripts": {
