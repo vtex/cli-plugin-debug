@@ -25,11 +25,11 @@ For more information, read [Ocliff Docs](https://oclif.io/docs/introduction).
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g @vtex/cli-plugin-template
+$ npm install -g @vtex/cli-plugin-debug
 $ vtex COMMAND
 running command...
 $ vtex (-v|--version|version)
-@vtex/cli-plugin-template/0.0.0 linux-x64 node-v12.18.4
+@vtex/cli-plugin-debug/0.0.0 linux-x64 node-v12.20.0
 $ vtex --help [COMMAND]
 USAGE
   $ vtex COMMAND
@@ -38,7 +38,24 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`vtex debug:dotnet DEBUGINST`](#vtex-debugdotnet-debuginst)
 * [`vtex hello [FILE]`](#vtex-hello-file)
+
+## `vtex debug:dotnet DEBUGINST`
+
+Debug .NET applications (IDEs only)
+
+```
+USAGE
+  $ vtex debug:dotnet DEBUGINST
+
+OPTIONS
+  -h, --help     show CLI help
+  -v, --verbose  Show debug level logs
+  --trace        Ensure all requests to VTEX IO are traced
+```
+
+_See code: [build/commands/debug/dotnet.ts](https://github.com/vtex/cli-plugin-debug/blob/v0.0.0/build/commands/debug/dotnet.ts)_
 
 ## `vtex hello [FILE]`
 
@@ -60,5 +77,5 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [build/commands/hello.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.0/build/commands/hello.ts)_
+_See code: [build/commands/hello.ts](https://github.com/vtex/cli-plugin-debug/blob/v0.0.0/build/commands/hello.ts)_
 <!-- commandsstop -->
