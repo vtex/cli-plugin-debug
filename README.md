@@ -39,7 +39,6 @@ USAGE
 # Commands
 <!-- commands -->
 * [`vtex debug:dotnet DEBUGINST`](#vtex-debugdotnet-debuginst)
-* [`vtex hello [FILE]`](#vtex-hello-file)
 
 ## `vtex debug:dotnet DEBUGINST`
 
@@ -56,26 +55,4 @@ OPTIONS
 ```
 
 _See code: [build/commands/debug/dotnet.ts](https://github.com/vtex/cli-plugin-debug/blob/v0.0.0/build/commands/debug/dotnet.ts)_
-
-## `vtex hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ vtex hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-  -v, --verbose    Show debug level logs
-  --trace          Ensure all requests to VTEX IO are traced
-
-EXAMPLE
-  $ oclif-example hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [build/commands/hello.ts](https://github.com/vtex/cli-plugin-debug/blob/v0.0.0/build/commands/hello.ts)_
 <!-- commandsstop -->
