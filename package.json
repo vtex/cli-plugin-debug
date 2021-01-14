@@ -1,7 +1,7 @@
 {
   "name": "@vtex/cli-plugin-debug",
   "description": "vtex plugin debug",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "bugs": "https://github.com/vtex/cli-plugin-debug/issues",
   "dependencies": {
     "@oclif/command": "^1",
