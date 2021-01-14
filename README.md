@@ -29,7 +29,7 @@ $ npm install -g @vtex/cli-plugin-debug
 $ vtex COMMAND
 running command...
 $ vtex (-v|--version|version)
-@vtex/cli-plugin-debug/0.0.0 linux-x64 node-v12.20.0
+@vtex/cli-plugin-debug/0.0.1 linux-x64 node-v12.20.1
 $ vtex --help [COMMAND]
 USAGE
   $ vtex COMMAND
@@ -54,5 +54,5 @@ OPTIONS
   --trace        Ensure all requests to VTEX IO are traced
 ```
 
-_See code: [build/commands/debug/dotnet.ts](https://github.com/vtex/cli-plugin-debug/blob/v0.0.0/build/commands/debug/dotnet.ts)_
+_See code: [build/commands/debug/dotnet.ts](https://github.com/vtex/cli-plugin-debug/blob/v0.0.1/build/commands/debug/dotnet.ts)_
 <!-- commandsstop -->
